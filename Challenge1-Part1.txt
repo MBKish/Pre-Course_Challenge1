@@ -1,0 +1,19 @@
+Question 1: Imagine asking a friend to meet you at a restaurant. What instructions would a computer program need that your friend would not in order to understand how to get there?
+
+Answer 1: A computer would need to know the how far to go before stopping or turning, the speed it should be going, and to look out for changes in variables; like stop lights and signs along the root. For example, you would tell it to "Go for 1 mile at a rate of 35 MPH", but if there are stoplights between the starting point and the end of that one mile, you would have to put in IF statements for every stop light or sign. Obviously you would also have to make sure that you are putting the directions in the correct sequence.
+
+
+Question 2: What is the difference between source code and machine code? What does the CPU do? Where are instructions and data stored?
+
+Answer 2: Source code is code that we, as programmers, are able to write, have the machine translate, and then run it. Machine code is the code native to the machine, code that the CPU can understand directly. The CPU receives the data, interprets it, and then executes. Instructions and data are stored in the memory of the device.
+
+
+Question 3: What is an IDE and why is it useful?
+
+Answer 3: IDE, or Integrated Development Environments, are programmer text editing programs with added tools to help the programmer. I have used IDEs in the past including Visual Studio and a form of Eclipse built into Appcelerator Titanium. The most useful things they have are syntax library, code autocomplete, debugging, and deploying.
+
+
+Question 4: What kind of language is Objective-C? Why do you think we use it for making device specific applications? Why wouldn't we want to use an interpreted language for making iPhone and iPad apps?
+
+Answer 4: Objective-C is a Compiled language. It is built and compiled on a Mac for specific devices. Since iOS devices have very similar hardware among generations, we don't run into hardware requirement issues. We use compiled code because it makes sure our source code is private, it is fast, and it runs as soon as it is acquired. For these same reasons, we would not want to use an interpreted language; it would be open source, interpretation is required, and it is usually slower.
+
